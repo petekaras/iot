@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
 <script>
 $(document).ready(function(){
 
@@ -17,10 +18,18 @@ $(document).ready(function(){
 
 });
 </script>
+
+    <style>
+
+        .button-xlarge {
+            font-size: 200%;
+        }
+    </style>
 </head>
 <body>
-
-<button id="on">Switch light on</button>
-<button id="off">Switch light off</button>
+<p></p>
+<button id="on" class="button-xlarge pure-button">Light on</button>
+<p></p>
+<button id="off" class="button-xlarge pure-button">Light off</button>
 </body>
 </html>
