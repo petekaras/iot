@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+
+  $("#on").click(function(){
+    $.get("/on",function(){
+    });
+  });
+
+  $("#off").click(function(){
+    $.get("/off",function(){
+    });
+  });
+
+});
+</script>
+</head>
+<body>
+
+<button id="on">Switch light on</button>
+<button id="off">Switch light off</button>
+</body>
+</html>
