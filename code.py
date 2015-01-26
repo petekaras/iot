@@ -4,7 +4,7 @@ from tinkerforge.bricklet_remote_switch import RemoteSwitch
 
 HOST = "localhost"
 PORT = 4223
-UID = "oiC" 
+UID = "oiC"
 urls = (
     '/', 'index',
     '/on', 'on',
